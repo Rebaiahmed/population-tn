@@ -18,10 +18,10 @@ const getByCode_Gouvernorat = (code) => {
 
 
 
-const getAll = () => {
+const getPopulations = () => {
   return array;
 };
 
 module.exports = {
-    getAll,getByCode_Gouvernorat
+  getPopulations,getByCode_Gouvernorat
 };
