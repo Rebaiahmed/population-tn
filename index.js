@@ -1,11 +1,5 @@
 let array = require("./data/data.json");
-
-const randomNum = () => {
-  return Math.floor(Math.random() * array.length);
-};
-
-
-
+const _ = require("lodash");
 
 const getByCode_Gouvernorat = (code) => {
     if(Number(code) && code >=0 && !isNaN(code))
@@ -17,11 +11,18 @@ const getByCode_Gouvernorat = (code) => {
 };
 
 
+const getByCode_Municipalite = (code) => {
+  if(Number(code) && code >=0 && !isNaN(code))
+  return _.find(array, (obj)=> { return obj.Code_Municipalite == code ? obj : null})  
+  else {throw  "Parameter is not a number!"}
+};
+
+
 
 const getPopulations = () => {
   return array;
 };
 
 module.exports = {
-  getPopulations,getByCode_Gouvernorat
+  getPopulations,getByCode_Gouvernorat,getByCode_Municipalite
 };

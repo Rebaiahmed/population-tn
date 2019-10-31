@@ -28,13 +28,28 @@ $ populations.getPopulations()
 ```
 
 
+<h3> Get Governorate by Code  </h3>
+
+```shell
+$ populations.getByCode_Gouvernorat(gov_code)
+```
+
+
+<h3> Get Governorate by MuniciaplityCode </h3>
+
+```shell
+$ populations.getByCode_Municipalite(muni_code)
+```
+
+
+
 <h3>Contributing</h3>
 Keep it simple. Keep it minimal. Don't put every single feature just because you can.
 
 <h3>Authors or Acknowledgments</h3>
 <ul>
   <li>Rebai Ahmed</li>
-    <li>Jaberi Imed</li>
+  <li>Jaberi Imed</li>
 </ul>
 
 <h3>License</h3>

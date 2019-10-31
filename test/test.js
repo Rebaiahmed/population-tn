@@ -1,27 +1,13 @@
 let data = require("../data/data.json");
 const _ = require("lodash");
+var  {getByCode_Municipalite} = require('../index');
 
 const assert = require("chai").assert;
+var expect = require('chai').expect;
+var should = require('chai').should();
 
-describe("data.json", () => {
-    it("should not contain duplicates ", () => {
-        function arrUnique(arr) {
-            var cleaned = [];
-            arr.forEach(function(itm) {
-                var unique = true;
-                cleaned.forEach(function (itm2) {
-                    if (_.isEqual(itm, itm2)) unique = false;
-                });
-                if (unique) {
-                    cleaned.push(itm);
-                }
-            });
-            return cleaned;
-        }
-        var prevArrayLen = data.length;
-        var newArray = arrUnique(data);
-        assert.equal(prevArrayLen, newArray.length);
-    });
 
-   
+
+it('should return one elment if Code_Municipalite i true  ', function(){
+    var gov = getByCode_Municipalite(1111)
 });

@@ -1,4 +1,32 @@
 {
-"name": "@rebaiahmed/tunpopulation",
-"version": "1.0.0-rc.1"
+  "name": "tunpopulation",
+  "version": "1.0.0-rc.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rebaiahmed/tunpopulation/issues"
+  },
+  "keywords": [
+    "nodejs",
+    "git",
+    "opendata",
+    "tunisia"
+  ],
+  "author": "Rebai Ahmed  && Imed Jaberi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rebaiahmed/tunpopulation/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/@rebaiahmed/tunpopulation",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
 }
