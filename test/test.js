@@ -1,8 +1,8 @@
-let data = require("../data/data.json");
-const _ = require("lodash");
+let data = require('../data/data.json');
+const _ = require('lodash');
 var  {getByCode_Municipalite} = require('../index');
 
-const assert = require("chai").assert;
+const assert = require('chai').assert;
 var expect = require('chai').expect;
 var should = require('chai').should();
 
