@@ -1,7 +1,7 @@
 [
 	{
 		"Code_Gouvernorat": "11",
-		"Nom_Gouvernorat_Ar": "تونس ",
+		"Nom_Gouvernorat_Ar": "تونس",
 		"Code_Municipalite": "1111",
 		"Nom_Municipalite_Ar": "تونس العاصمة",
 		"Population_Mun_Jan2019": "614703",
@@ -10,7 +10,7 @@
 	},
 	{
 		"Code_Gouvernorat": "11",
-		"Nom_Gouvernorat_Ar": "تونس ",
+		"Nom_Gouvernorat_Ar": "تونس",
 		"Code_Municipalite": "1112",
 		"Nom_Municipalite_Ar": "باردو",
 		"Population_Mun_Jan2019": "71110",
@@ -19,7 +19,7 @@
 	},
 	{
 		"Code_Gouvernorat": "11",
-		"Nom_Gouvernorat_Ar": "تونس ",
+		"Nom_Gouvernorat_Ar": "تونس",
 		"Code_Municipalite": "1113",
 		"Nom_Municipalite_Ar": "الكرم",
 		"Population_Mun_Jan2019": "83267",
@@ -28,7 +28,7 @@
 	},
 	{
 		"Code_Gouvernorat": "11",
-		"Nom_Gouvernorat_Ar": "تونس ",
+		"Nom_Gouvernorat_Ar": "تونس",
 		"Code_Municipalite": "1114",
 		"Nom_Municipalite_Ar": "حلق الوادي",
 		"Population_Mun_Jan2019": "56402",
@@ -37,7 +37,7 @@
 	},
 	{
 		"Code_Gouvernorat": "11",
-		"Nom_Gouvernorat_Ar": "تونس ",
+		"Nom_Gouvernorat_Ar": "تونس",
 		"Code_Municipalite": "1115",
 		"Nom_Municipalite_Ar": "قرطاج",
 		"Population_Mun_Jan2019": "18105",
@@ -46,7 +46,7 @@
 	},
 	{
 		"Code_Gouvernorat": "11",
-		"Nom_Gouvernorat_Ar": "تونس ",
+		"Nom_Gouvernorat_Ar": "تونس",
 		"Code_Municipalite": "1116",
 		"Nom_Municipalite_Ar": "سيدي بوسعيد",
 		"Population_Mun_Jan2019": "7670",
@@ -55,7 +55,7 @@
 	},
 	{
 		"Code_Gouvernorat": "11",
-		"Nom_Gouvernorat_Ar": "تونس ",
+		"Nom_Gouvernorat_Ar": "تونس",
 		"Code_Municipalite": "1117",
 		"Nom_Municipalite_Ar": "المرسى",
 		"Population_Mun_Jan2019": "98362",
@@ -64,7 +64,7 @@
 	},
 	{
 		"Code_Gouvernorat": "11",
-		"Nom_Gouvernorat_Ar": "تونس ",
+		"Nom_Gouvernorat_Ar": "تونس",
 		"Code_Municipalite": "1118",
 		"Nom_Municipalite_Ar": "سيدي حسين",
 		"Population_Mun_Jan2019": "122475",
@@ -120,7 +120,7 @@
 		"Code_Gouvernorat": "12",
 		"Nom_Gouvernorat_Ar": "أريانة",
 		"Code_Municipalite": "1216",
-		"Nom_Municipalite_Ar": "التضامن ",
+		"Nom_Municipalite_Ar": "التضامن",
 		"Population_Mun_Jan2019": "84607",
 		"Superficie_Mun": "3.291",
 		"Mun_Nouvelle": "Non"
