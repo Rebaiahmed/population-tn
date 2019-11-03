@@ -1,32 +1,54 @@
 {
-  "name": "tunpopulation",
+  "name": "population-tn",
   "version": "1.0.0",
-  "description": "",
+  "description": "This module provides open data on the Tunisia population census in order to assist Tunisian developers in their projects.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha"
+    "test": "mocha --reporter spec",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec",
+    "ci": "npm run cover",
+    "postversion": "git push && git push --tags",
+    "prepublishOnly": "npm run ci",
+    "preversion": "npm run ci"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rebaiahmed/tunpopulation/issues"
+    "url": "git+https://github.com/Rebaiahmed/population-tn.git"
   },
   "keywords": [
-    "nodejs",
-    "git",
+    "tunisia",
+    "tn",
+    "tunis",
+    "open-data",
     "opendata",
-    "tunisia"
+    "population",
+    "peoples",
+    "governorates",
+    "municipalities",
+    "2019"
   ],
   "author": "Rebai Ahmed  && Imed Jaberi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rebaiahmed/tunpopulation/issues"
-  },
-  "homepage": "https://www.npmjs.com/package/@rebaiahmed/tunpopulation",
+  "contributors": [
+    "Imed Jaberi <imed_jebari@hotmail.fr> (https://github.com/3imed-jaberi)",
+    "Ahmed Rebai <ahmed.bouhmid94@gmail.com> (https://github.com/Rebaiahmed)"
+  ],
+  "license": "MIT",
   "dependencies": {
-    "chai": "^4.2.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
-    "mocha": "^6.2.2"
-  }
+    "mocha": "^6.2.2",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.7",
+    "istanbul": "^0.4.5"
+  },
+  "engines": {
+    "node": ">= 10.12.0",
+    "npm": ">= 6.9.0",
+    "yarn": ">= 1.16.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Rebaiahmed/population-tn/issues"
+  },
+  "homepage": "https://github.com/Rebaiahmed/population-tn/#readme"
 }
