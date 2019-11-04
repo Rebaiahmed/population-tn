@@ -67,8 +67,8 @@ $ populations.getByCode_Municipalite(muni_code);
 
 ### Authors / Contributors / Acknowledgments
 ---
- - Ahmed Rebai @Rebaiahmed
- - Imed Jaberi @3imed-jaberi
+ - Ahmed Rebai [@Rebaiahmed](https://github.com/Rebaiahmed)
+ - Imed Jaberi [@3imed-jaberi](https://github.com/3imed-jaberi)
 
 
 #### License
