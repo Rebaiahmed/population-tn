@@ -1,0 +1,65 @@
+[
+  {
+		"Code_Gouvernorat": "12",
+		"Nom_Gouvernorat_Ar": "أريانة",
+		"Code_Municipalite": "1211",
+		"Nom_Municipalite_Ar": "أريانة",
+		"Population_Mun_Jan2019": "118821",
+		"Superficie_Mun": "18.379",
+		"Mun_Nouvelle": "Non"
+	},
+	{
+		"Code_Gouvernorat": "12",
+		"Nom_Gouvernorat_Ar": "أريانة",
+		"Code_Municipalite": "1212",
+		"Nom_Municipalite_Ar": "سكرة",
+		"Population_Mun_Jan2019": "147809",
+		"Superficie_Mun": "28.300",
+		"Mun_Nouvelle": "Non"
+	},
+	{
+		"Code_Gouvernorat": "12",
+		"Nom_Gouvernorat_Ar": "أريانة",
+		"Code_Municipalite": "1213",
+		"Nom_Municipalite_Ar": "رواد",
+		"Population_Mun_Jan2019": "134465",
+		"Superficie_Mun": "57.561",
+		"Mun_Nouvelle": "Non"
+	},
+	{
+		"Code_Gouvernorat": "12",
+		"Nom_Gouvernorat_Ar": "أريانة",
+		"Code_Municipalite": "1214",
+		"Nom_Municipalite_Ar": "قلعة الأندلس",
+		"Population_Mun_Jan2019": "27779",
+		"Superficie_Mun": "189.338",
+		"Mun_Nouvelle": "Non"
+	},
+	{
+		"Code_Gouvernorat": "12",
+		"Nom_Gouvernorat_Ar": "أريانة",
+		"Code_Municipalite": "1215",
+		"Nom_Municipalite_Ar": "سيدي ثابت",
+		"Population_Mun_Jan2019": "26113",
+		"Superficie_Mun": "97.031",
+		"Mun_Nouvelle": "Non"
+	},
+	{
+		"Code_Gouvernorat": "12",
+		"Nom_Gouvernorat_Ar": "أريانة",
+		"Code_Municipalite": "1216",
+		"Nom_Municipalite_Ar": "التضامن",
+		"Population_Mun_Jan2019": "84607",
+		"Superficie_Mun": "3.291",
+		"Mun_Nouvelle": "Non"
+	},
+	{
+		"Code_Gouvernorat": "12",
+		"Nom_Gouvernorat_Ar": "أريانة",
+		"Code_Municipalite": "1217",
+		"Nom_Municipalite_Ar": "المنيهلة",
+		"Population_Mun_Jan2019": "110090",
+		"Superficie_Mun": "23.512",
+		"Mun_Nouvelle": "Oui"
+	}
+]
