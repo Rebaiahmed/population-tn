@@ -1,13 +1,10 @@
 # Tunisian - Population & Municipalites 🇹🇳🪐
 --- 
 
-<!-- ⚠️ : merge the 3imed-jaberi-patch-1 -->
 ![population-tn-logo](logo.jpg)
 
 
-[![Build Status](https://travis-ci.org/3imed-jaberi/population-tn.svg?branch=master)](https://travis-ci.org/3imed-jaberi/population-tn)
-
-[![Coverage Status](https://coveralls.io/repos/github/3imed-jaberi/population-tn/badge.svg?branch=master)](https://coveralls.io/github/3imed-jaberi/population-tn?branch=master)
+[![Build Status](https://travis-ci.org/3imed-jaberi/population-tn.svg?branch=master)](https://travis-ci.org/3imed-jaberi/population-tn) &nbsp; [![Coverage Status](https://coveralls.io/repos/github/3imed-jaberi/population-tn/badge.svg?branch=master)](https://coveralls.io/github/3imed-jaberi/population-tn?branch=master)
 
 
 #### __`Population-Tn`__ allow you to get all tunisian cities populations for the date January 2019.
@@ -24,6 +21,7 @@
 ```bash
 $ npm install population-tn
 ```
+
 
 ### Usage 
 ---
@@ -54,11 +52,13 @@ $ populations.getByCode_Gouvernorat(gov_code);
 $ populations.getByCode_Municipalite(muni_code);
 ```
 
+
   <!-- 
     * should update the readme or create docs site for all details with MuniciaplityCode && GovernorateCode.
     * should update the code example.
     * should update the core code export.
   -->
+
 
 ### Contributing 
 ---
@@ -69,6 +69,7 @@ $ populations.getByCode_Municipalite(muni_code);
 ---
  - Ahmed Rebai [@Rebaiahmed](https://github.com/Rebaiahmed)
  - Imed Jaberi [@3imed-jaberi](https://github.com/3imed-jaberi)
+
 
 
 #### License
